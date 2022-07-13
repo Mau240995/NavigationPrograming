@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		59BD2F7B287F293F00D58BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD2F7A287F293F00D58BE0 /* AppDelegate.swift */; };
 		59BD2F7D287F293F00D58BE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD2F7C287F293F00D58BE0 /* SceneDelegate.swift */; };
-		59BD2F7F287F293F00D58BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD2F7E287F293F00D58BE0 /* ViewController.swift */; };
 		59BD2F82287F293F00D58BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BD2F80287F293F00D58BE0 /* Main.storyboard */; };
 		59BD2F84287F294200D58BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59BD2F83287F294200D58BE0 /* Assets.xcassets */; };
 		59BD2F87287F294200D58BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BD2F85287F294200D58BE0 /* LaunchScreen.storyboard */; };
+		59BD2F92287F2E4900D58BE0 /* VentanaPrincipalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD2F91287F2E4900D58BE0 /* VentanaPrincipalController.swift */; };
+		59BD2F94287F2E9D00D58BE0 /* Ventana2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD2F93287F2E9D00D58BE0 /* Ventana2Controller.swift */; };
+		59BD2F96287F392200D58BE0 /* EstudiosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD2F95287F392200D58BE0 /* EstudiosController.swift */; };
+		59BD2F98287F394C00D58BE0 /* ExperienciaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD2F97287F394C00D58BE0 /* ExperienciaController.swift */; };
+		59BD2F9A287F396800D58BE0 /* TrabajoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD2F99287F396800D58BE0 /* TrabajoController.swift */; };
+		59BD2F9C287F398200D58BE0 /* ContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BD2F9B287F398200D58BE0 /* ContactoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		59BD2F77287F293F00D58BE0 /* NavigationPrograming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationPrograming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BD2F7A287F293F00D58BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59BD2F7C287F293F00D58BE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59BD2F7E287F293F00D58BE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59BD2F81287F293F00D58BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59BD2F83287F294200D58BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59BD2F86287F294200D58BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59BD2F88287F294200D58BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BD2F91287F2E4900D58BE0 /* VentanaPrincipalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentanaPrincipalController.swift; sourceTree = "<group>"; };
+		59BD2F93287F2E9D00D58BE0 /* Ventana2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ventana2Controller.swift; sourceTree = "<group>"; };
+		59BD2F95287F392200D58BE0 /* EstudiosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstudiosController.swift; sourceTree = "<group>"; };
+		59BD2F97287F394C00D58BE0 /* ExperienciaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienciaController.swift; sourceTree = "<group>"; };
+		59BD2F99287F396800D58BE0 /* TrabajoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrabajoController.swift; sourceTree = "<group>"; };
+		59BD2F9B287F398200D58BE0 /* ContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		59BD2F79287F293F00D58BE0 /* NavigationPrograming */ = {
 			isa = PBXGroup;
 			children = (
+				59BD2F8E287F2D5300D58BE0 /* Controller */,
 				59BD2F7A287F293F00D58BE0 /* AppDelegate.swift */,
 				59BD2F7C287F293F00D58BE0 /* SceneDelegate.swift */,
-				59BD2F7E287F293F00D58BE0 /* ViewController.swift */,
 				59BD2F80287F293F00D58BE0 /* Main.storyboard */,
 				59BD2F83287F294200D58BE0 /* Assets.xcassets */,
 				59BD2F85287F294200D58BE0 /* LaunchScreen.storyboard */,
 				59BD2F88287F294200D58BE0 /* Info.plist */,
 			);
 			path = NavigationPrograming;
+			sourceTree = "<group>";
+		};
+		59BD2F8E287F2D5300D58BE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59BD2F91287F2E4900D58BE0 /* VentanaPrincipalController.swift */,
+				59BD2F93287F2E9D00D58BE0 /* Ventana2Controller.swift */,
+				59BD2F95287F392200D58BE0 /* EstudiosController.swift */,
+				59BD2F97287F394C00D58BE0 /* ExperienciaController.swift */,
+				59BD2F99287F396800D58BE0 /* TrabajoController.swift */,
+				59BD2F9B287F398200D58BE0 /* ContactoController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59BD2F7F287F293F00D58BE0 /* ViewController.swift in Sources */,
+				59BD2F92287F2E4900D58BE0 /* VentanaPrincipalController.swift in Sources */,
 				59BD2F7B287F293F00D58BE0 /* AppDelegate.swift in Sources */,
+				59BD2F9C287F398200D58BE0 /* ContactoController.swift in Sources */,
+				59BD2F94287F2E9D00D58BE0 /* Ventana2Controller.swift in Sources */,
+				59BD2F98287F394C00D58BE0 /* ExperienciaController.swift in Sources */,
 				59BD2F7D287F293F00D58BE0 /* SceneDelegate.swift in Sources */,
+				59BD2F9A287F396800D58BE0 /* TrabajoController.swift in Sources */,
+				59BD2F96287F392200D58BE0 /* EstudiosController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
